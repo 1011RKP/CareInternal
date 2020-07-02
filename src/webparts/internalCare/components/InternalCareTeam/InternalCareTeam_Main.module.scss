@@ -1,0 +1,15 @@
+.internalCareTeamMain{
+
+  .testTheam {
+    padding: 20px;
+    background-color: "[theme:themePrimary, default:#0078d7]";
+    color: "[theme:white, default:white]"
+  }
+  .breadcrumbs {
+    list-style-type: none!important;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f4f5f7;
+  }
+}

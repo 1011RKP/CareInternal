@@ -1,0 +1,13 @@
+
+// @import ITheme  from '~spfx-js-theme/';
+// const theme: ITheme = window.__themeState__.theme;
+
+.ainBoardVote {
+  .breadcrumbs {
+    list-style-type: none!important;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f4f5f7;
+  }
+}

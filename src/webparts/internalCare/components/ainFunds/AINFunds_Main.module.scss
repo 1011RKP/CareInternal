@@ -1,0 +1,92 @@
+
+// @import ITheme  from '~spfx-js-theme/';
+// const theme: ITheme = window.__themeState__.theme;
+
+.ainfunds {
+  .breadcrumbs {
+    list-style-type: none!important;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f4f5f7;
+  }
+
+  .breadcrumbs > li {
+    float: left;
+    display: inline-block;
+  }
+
+  a.active {
+    background-color: #dbdcde;
+  }
+
+  .breadcrumbs > li a {
+    display: block;
+    color: maroon;
+    font-weight:bold;
+    text-align: center;
+    padding: 16px 8px;
+    text-decoration: none;
+  }
+
+  .breadcrumbs > li a:hover {
+    background-color: #dbdcde;
+  }
+  .eventIconStyles{
+    color: #275458 !important;
+    cursor: pointer!important;
+  }
+  .table{
+    font-size: 14px,
+  }
+
+  .popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  /* The actual popup */
+  .popup .popuptext {
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+  }
+
+  /* Popup arrow */
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+
+  /* Toggle this class - hide and show the popup */
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+  }
+
+  /* Add animation (fade in the popup) */
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
+}
